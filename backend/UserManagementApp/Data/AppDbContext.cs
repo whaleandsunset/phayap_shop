@@ -10,6 +10,9 @@ namespace UserManagementApp.Data
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Products> Products => Set<Products>();
+        public DbSet<SenderProfile> SenderProfiles => Set<SenderProfile>();
+        public DbSet<Order> Orders => Set<Order>();
+        public DbSet<CustomOrder> CustomOrders => Set<CustomOrder>();
     }
 }
