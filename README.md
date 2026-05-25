@@ -1,17 +1,17 @@
-# Interview-Question-No01
+# คำถามสัมภาษณ์งาน หมายเลข 01
 
 
 
-## Getting started
+## เริ่มต้นใช้งาน
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+เพื่อให้ง่ายต่อการเริ่มต้นใช้งานโปรเจกต์นี้ นี่คือรายการขั้นตอนแนะนำสำหรับผู้เริ่มต้น
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+ถ้าคุณมีประสบการณ์แล้ว สามารถแก้ไขไฟล์ README.md นี้ให้เหมาะสมกับโปรเจกต์ของคุณได้เลย หรือจะใช้เทมเพลตที่อยู่ด้านล่างก็ได้เช่นกัน
 
-## Add your files
+## เพิ่มไฟล์ของคุณ
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
+* [สร้างไฟล์](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) หรือ [อัปโหลดไฟล์](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file)
+* [เพิ่มไฟล์ผ่านคำสั่งบรรทัดคำสั่ง](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) หรือ push repository ที่มีอยู่แล้วด้วยคำสั่งต่อไปนี้:
 
 ```
 cd existing_repo
@@ -20,74 +20,72 @@ git branch -M main
 git push -uf origin main
 ```
 
-## Integrate with your tools
+## เชื่อมต่อกับเครื่องมือของคุณ
 
-* [Set up project integrations](https://gitlab.com/whalewithsunset/interview-question-no01/-/settings/integrations)
+* [ตั้งค่า integrations ของโปรเจกต์](https://gitlab.com/whalewithsunset/interview-question-no01/-/settings/integrations)
 
-## Collaborate with your team
+## ทำงานร่วมกับทีมของคุณ
 
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
+* [เชิญสมาชิกในทีมและผู้ร่วมงาน](https://docs.gitlab.com/user/project/members/)
+* [สร้าง merge request ใหม่](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
+* [ปิด issue อัตโนมัติจาก merge request](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
+* [เปิดใช้งานการอนุมัติ merge request](https://docs.gitlab.com/user/project/merge_requests/approvals/)
+* [ตั้งค่า auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
 
-## Test and Deploy
+## ทดสอบและดีพลอย
 
-Use the built-in continuous integration in GitLab.
+ใช้ระบบ CI/CD ที่มีใน GitLab
 
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
+* [เริ่มต้นใช้งาน GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
+* [วิเคราะห์โค้ดเพื่อหาช่องโหว่ด้วย SAST](https://docs.gitlab.com/user/application_security/sast/)
+* [ดีพลอยไปยัง Kubernetes, Amazon EC2, หรือ Amazon ECS ด้วย Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
+* [ใช้ pull-based deployments เพื่อจัดการ Kubernetes ได้ดีขึ้น](https://docs.gitlab.com/user/clusters/agent/)
+* [ตั้งค่า protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
 
 ***
 
-# Editing this README
+# แก้ไข README นี้
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+เมื่อคุณพร้อมที่จะแก้ไข README นี้ให้เหมาะกับโปรเจกต์ของคุณ สามารถแก้ไขไฟล์นี้ได้เลย หรือใช้เทมเพลตด้านล่าง (หรือจะจัดโครงสร้างเองก็ได้)
 
-## Suggestions for a good README
+## ข้อเสนอแนะสำหรับ README ที่ดี
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+แต่ละโปรเจกต์มีความแตกต่างกัน ลองพิจารณาว่าส่วนใดบ้างที่เหมาะกับโปรเจกต์ของคุณ ส่วนต่าง ๆ ที่ใช้ในเทมเพลตนี้เป็นเพียงข้อเสนอแนะสำหรับโปรเจกต์โอเพ่นซอร์สทั่วไป หากคิดว่า README ยาวเกินไป อาจแยกเอกสารออกไปต่างหากแทนที่จะตัดเนื้อหาออก
 
-## Name
-Choose a self-explaining name for your project.
+## ชื่อโปรเจกต์
+เลือกชื่อโปรเจกต์ที่สื่อความหมายได้ด้วยตัวเอง
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## คำอธิบาย
+อธิบายว่าโปรเจกต์ของคุณสามารถทำอะไรได้บ้าง เพิ่มบริบทและลิงก์อ้างอิงที่เกี่ยวข้อง รายการฟีเจอร์หรือประวัติความเป็นมาก็สามารถใส่ได้ หากมีโปรเจกต์ทางเลือกอื่น ๆ สามารถระบุจุดเด่นที่แตกต่างกันได้ที่นี่
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+## แสดงสถานะ (Badges)
+ใน README บางโปรเจกต์จะมีไอคอนเล็ก ๆ แสดงสถานะ เช่น การทดสอบผ่านหรือไม่ สามารถใช้ Shields เพื่อเพิ่มได้ หลายบริการมีวิธีเพิ่ม badge ให้
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## ภาพประกอบ
+หากโปรเจกต์ของคุณมีภาพหน้าจอหรือวิดีโอสาธิต ควรใส่ไว้ที่นี่ เช่น GIF หรือใช้ Asciinema สำหรับวิดีโอแบบ command line
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## การติดตั้ง
+แต่ละ ecosystem อาจมีวิธีติดตั้งที่แตกต่างกัน เช่น Yarn, NuGet, หรือ Homebrew ควรระบุขั้นตอนให้ชัดเจนสำหรับผู้เริ่มต้น หากต้องติดตั้ง dependency หรือมีข้อกำหนดพิเศษ ให้ระบุไว้ด้วย
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+## วิธีใช้งาน
+แสดงตัวอย่างการใช้งาน พร้อมผลลัพธ์ที่คาดหวัง หากตัวอย่างยาวเกินไป อาจลิงก์ไปยังตัวอย่างที่สมบูรณ์แทน
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## ขอความช่วยเหลือ
+แจ้งช่องทางติดต่อหรือขอความช่วยเหลือ เช่น issue tracker, ห้องแชท, อีเมล ฯลฯ
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+หากมีแผนพัฒนาในอนาคต สามารถระบุไว้ที่นี่
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## การร่วมพัฒนา
+ระบุว่าคุณเปิดรับการร่วมพัฒนาหรือไม่ และมีข้อกำหนดอย่างไร
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+สำหรับผู้ที่ต้องการแก้ไขโปรเจกต์ ควรมีเอกสารแนะนำขั้นตอนการเริ่มต้น เช่น สคริปต์ที่ต้องรัน หรือ environment variables ที่ต้องตั้งค่า
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## ผู้เขียนและการขอบคุณ
+ขอบคุณผู้ที่มีส่วนร่วมกับโปรเจกต์นี้
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+## ใบอนุญาต
+สำหรับโปรเจกต์โอเพ่นซอร์ส ควรระบุว่าใช้ไลเซนส์อะไร
 
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## สถานะโปรเจกต์
+หากโปรเจกต์หยุดพัฒนา หรือไม่มีเวลาต่อ สามารถแจ้งไว้ที่นี่ เผื่อมีคนสนใจมาช่วยดูแลต่อ
